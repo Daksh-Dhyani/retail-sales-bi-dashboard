@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor and system files
+.vscode/
+desktop.ini
+.DS_Store
+
+# Data: held back until the dataset licence is checked.
+# The README explains how to download it from Kaggle.
+data/*.csv
+data/*.db
+
+# The Power BI file embeds the data, so it is also held back for now
+powerbi/*.pbix
